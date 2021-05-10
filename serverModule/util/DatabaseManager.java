@@ -46,7 +46,8 @@ public class DatabaseManager {
 
     private final String JDBC_DRIVER = "org.postgresql.Driver";
 
-    private final String url = "jdbc:postgresql://localhost:1264/studs";
+    private final String url = "jdbc:postgresql://localhost:1264/studs"; //для идеи
+    //private final String url = "jdbc:postgresql://localhost:5432/studs"; //для хелиоса
     private String user;
     private String password;
     private Connection connection;
